@@ -15,16 +15,25 @@ os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 @app.route("/", methods=["GET", "POST"])
 def index():
     if request.method == "POST":
-        file = request.files["file"]
+        file = request.files.get("file")
+
+        if not file or file.filename == "":
+            return "No file uploaded ❌"
+
         filepath = os.path.join(UPLOAD_FOLDER, file.filename)
         file.save(filepath)
 
-        df = pd.read_excel(filepath)
-        timetable = generate_timetable(df)
+        try:
+            df = pd.read_excel(filepath)
+        except Exception as e:
+            return f"Error reading file: {str(e)}"
 
-        excel_path = os.path.join(OUTPUT_FOLDER, "timetable.xlsx")
-
-        export_to_excel(timetable, excel_path)
+        try:
+            timetable = generate_timetable(df)
+            excel_path = os.path.join(OUTPUT_FOLDER, "timetable.xlsx")
+            export_to_excel(timetable, excel_path)
+        except Exception as e:
+            return f"Processing Error: {str(e)}"
 
         return render_template("result.html", timetable=timetable)
 
@@ -32,7 +41,7 @@ def index():
 
 @app.route("/download/excel")
 def download_excel():
-    return send_file("outputs/timetable.xlsx", as_attachment=True)
+    return send_file(os.path.join(OUTPUT_FOLDER, "timetable.xlsx"), as_attachment=True)
 
 if __name__ == "__main__":
     app.run(debug=True)
