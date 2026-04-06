@@ -1,0 +1,61 @@
+Department,Year,Subject,Faculty,Theory Hours,Lab Hours
+CSE,1,Programming,Dr.Ram,5,2
+CSE,1,Mathematics,Dr.Siva,5,0
+CSE,1,Digital Logic,Dr.Arun,4,0
+CSE,1,Computer Fundamentals,Dr.Latha,4,0
+CSE,1,Engineering Physics,Dr.Naveen,4,0
+CSE,1,English,Dr.Priya,2,0
+CSE,1,Programming Lab,Dr.Ram,0,2
+CSE,2,Data Structures,Dr.Kumar,5,2
+CSE,2,DBMS,Dr.Anita,4,2
+CSE,2,Computer Organization,Dr.Vijay,4,0
+CSE,2,Discrete Mathematics,Dr.Siva,4,0
+CSE,2,Operating Systems,Dr.Meena,3,0
+CSE,2,DS Lab,Dr.Kumar,0,2
+CSE,3,Operating Systems,Dr.Meena,4,0
+CSE,3,Computer Networks,Dr.Ravi,5,2
+CSE,3,Software Engineering,Dr.Karthik,4,0
+CSE,3,Theory of Computation,Dr.Ajit,4,0
+CSE,3,Compiler Design,Dr.Vikram,3,0
+CSE,3,Networks Lab,Dr.Ravi,0,2
+CSE,4,Machine Learning,Dr.Ram,4,0
+CSE,4,Cloud Computing,Dr.Ajit,4,0
+CSE,4,Data Mining,Dr.Kumar,4,0
+CSE,4,Artificial Intelligence,Dr.Ram,4,0
+CSE,4,Big Data Analytics,Dr.Suresh,3,0
+CSE,4,AI Lab,Dr.Ram,0,2
+IT,1,Programming,Dr.Ram,5,2
+IT,1,Mathematics,Dr.Siva,5,0
+IT,1,Computer Fundamentals,Dr.Latha,4,0
+IT,1,Digital Logic,Dr.Arun,4,0
+IT,1,English,Dr.Priya,2,0
+IT,1,IT Lab,Dr.Suresh,0,2
+IT,2,Networks,Dr.Ravi,5,0
+IT,2,Database Systems,Dr.Anita,4,2
+IT,2,Operating Systems,Dr.Meena,4,0
+IT,2,Software Engineering,Dr.Karthik,4,0
+IT,2,Discrete Mathematics,Dr.Siva,3,0
+IT,2,Networks Lab,Dr.Ravi,0,2
+IT,3,Machine Learning,Dr.Ram,4,0
+IT,3,Web Technology,Dr.Suresh,5,2
+IT,3,Cyber Security,Dr.Karthik,4,0
+IT,3,Cloud Computing,Dr.Ajit,4,0
+IT,3,Data Mining,Dr.Kumar,3,0
+IT,3,Web Lab,Dr.Suresh,0,2
+ECE,1,Engineering Physics,Dr.Naveen,5,0
+ECE,1,Basic Electronics,Dr.Arjun,4,2
+ECE,1,Mathematics,Dr.Siva,5,0
+ECE,1,Digital Systems,Dr.Vikram,4,0
+ECE,1,English,Dr.Priya,2,0
+ECE,2,Signals and Systems,Dr.Arjun,5,0
+ECE,2,Analog Circuits,Dr.Priya,4,2
+ECE,2,Digital Electronics,Dr.Vikram,4,0
+ECE,2,Communication Systems,Dr.Rakesh,4,0
+ECE,2,Microprocessors,Dr.Naveen,3,0
+ECE,2,Circuits Lab,Dr.Priya,0,2
+ECE,3,Digital Communication,Dr.Vikram,5,0
+ECE,3,Embedded Systems,Dr.Rakesh,4,2
+ECE,3,VLSI Design,Dr.Naveen,4,0
+ECE,3,Wireless Communication,Dr.Arjun,4,0
+ECE,3,Signal Processing,Dr.Priya,3,0
+ECE,3,Embedded Lab,Dr.Rakesh,0,2
